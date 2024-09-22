@@ -1,3 +1,15 @@
+spring:
+  application:
+    name: common-config
+  datasource:
+    url: jdbc:mysql://localhost:3306/rating_app
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+jpa:
+    hibernate:
+      ddl-auto: update 
 eureka:
   instance:
     prefer-ip-address: true
